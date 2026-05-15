@@ -20,5 +20,5 @@ jobs:
 
       - run: python buy-sell.py
         env:
-          EMAILUSER: ${{ secrets.EMAILUSER }}
+          EMAIL_USER: ${{ secrets.EMAIL_USER }}
           EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
