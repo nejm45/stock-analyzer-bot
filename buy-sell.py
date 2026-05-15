@@ -3,7 +3,7 @@ import os
 from email.mime.text import MIMEText
 
 def send_email(msg_text):
-    sender_email = os.environ.get("EMAILUSER")
+    sender_email = os.environ.get("EMAIL_USER")
     receiver_email = sender_email
     password = os.environ.get("EMAIL_PASS")
 
